@@ -11,6 +11,7 @@ class LoginForm extends React.Component {
   }
   handleSumbit = (e) => {
     e.preventDefault();
+    if (!this.state.username || !this.state.password) return;
     this.props.handleLogin(this.state)
 
   };
