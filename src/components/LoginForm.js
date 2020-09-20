@@ -42,7 +42,7 @@ class LoginForm extends React.Component {
               type="password"
               placeholder ='Password'
               value={this.state.password}
-              onChange={this.handleChangePassword}
+              onChange={this.handleChange}
             />
         </div>
         <div>
