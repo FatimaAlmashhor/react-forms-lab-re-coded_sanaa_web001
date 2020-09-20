@@ -20,7 +20,7 @@ class LoginForm extends React.Component {
     let name = e.target.name;
     let value = e.target.value;
     console.log(this.state[name]);
-    this.state[name] = value;
+    // this.state[name] = value;
   };
   render() {
     return (
